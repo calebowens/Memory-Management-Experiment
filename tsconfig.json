@@ -1,0 +1,12 @@
+{
+  "extends": "@tsconfig/strictest/tsconfig.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "esnext",
+    "lib": ["es2021", "dom"],
+    "sourceMap": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
